@@ -1,0 +1,72 @@
+1) Difference between SDLC and STLC process:
+
+   Core Differences :
+
+              SDLC ( Softwaare Development Life Cycle )                    STLC ( Software Testing Life  Cycle )
+
+Feature
+
+Primary       Building and delivering the Software                        Validating Software quality and identifying
+Focus                       product.                                               defects.
+
+Primary Actors    Developers,                                              QA Engineers and Testers.
+                  Business Analysts,
+                  Project Managers.
+
+LifeCycle Scope    Broad : Encompasses the entire 
+                  journey from idea to maienance                           Focused : Applies primary to
+                                                                           the testing phase of the SDLC.
+
+Execution        Occurs First;                                            Often runs in parallel with development,
+ Order           testing cannot begin until                               depending on the methodology.                     
+                 the software is coded.       
+
+Final OutPut     A functional deployed software                            Test reports, defect logs, and a quality
+                  application.                                              assured product.
+
+
+2)  Who will do Unit Testing and What is the importance of Unit Testing? Explain about Quality Control :
+
+       Developer :  The developer who writes the code is responsible for unit testing.
+                    They know the logic best and test each function/method they write before committing.
+
+    What is unit testing?
+     Unit testing means testing the smallest individual piece of code — one function,
+    one method, or one class — in complete isolation from the rest of the application.
+    The goal is to verify that each unit does exactly what it is supposed to do.
+
+
+     Importance of unit testing :
+
+1) Catches bugs early — at the code level
+Finding a bug in unit testing costs 10x less than finding it in production. Fix now, not later.
+
+2) Makes code reliable and predictable
+Each unit is verified to work correctly. Other developers can trust and reuse that code confidently.
+
+3) Supports safe refactoring
+When you change code later, unit tests instantly tell you if you broke anything. No guessing needed.
+
+4) Acts as living documentation
+Unit tests show exactly how a function is supposed to behave — new developers read tests to understand code.
+
+5) Speeds up debugging
+When a test fails, you know exactly which unit broke. No need to search through 10,000 lines of code.
+
+6) Enables CI/CD pipelines
+Automated unit tests run on every code push. If tests fail, the build stops. This is the foundation of DevOps.
+
+7) Reduces overall testing cost
+Fewer bugs reach QA, UAT, and production. Less rework saves money, time, and reputation.
+
+Quality Control :
+
+QC is the activity of testing the actual product to find and fix defects before release.
+It is done by the QA team after development is complete.
+
+
+
+
+
+
+ 
