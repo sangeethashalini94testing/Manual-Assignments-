@@ -1,0 +1,123 @@
+1 )  Explain in detail about Agile Methodology :
+
+
+What is Agile?
+Agile is a software development methodology that focuses on delivering software in small, 
+incremental parts rather than building the entire product at once. 
+Instead of following one long rigid plan, the project is broken into small cycles called Sprints (usually 1-4 weeks each), 
+and after every sprint, a working piece of software is delivered.
+The core idea: build, get feedback, improve, repeat — instead of waiting until the very end to show the client anything.
+
+Why Agile Came into Existence
+
+Before Agile, most projects used the Waterfall Model, where:
+Requirements → Design → Development → Testing → Deployment happened in strict sequence
+Testing happened only at the very end
+If the client wanted a change, or if a mistake was found late, it was very costly and time-consuming to fix .
+Agile was created to solve these problems by making development flexible, collaborative, and continuous .
+
+
+Core Values of Agile (Agile Manifesto)
+Agile is based on 4 key values:
+
+Individuals and interactions over processes and tools
+Working software over comprehensive documentation
+Customer collaboration over contract negotiation
+Responding to change over following a fixed plan.
+
+Key Roles in Agile (Scrum Framework)
+
+Product Owner – Represents the customer/business, manages the product backlog, decides priorities
+Scrum Master – Facilitates the process, removes obstacles/blockers for the team, ensures Agile principles are followed
+Development Team (includes testers, developers) – Actually builds and tests the product.
+
+How Testing Fits into Agile
+This is very relevant for you as a QA learner:
+
+Testing is not a separate final phase — it happens continuously, within each sprint
+Testers are involved from day one, along with developers, not after development is "complete"
+Concepts like Continuous Integration/Continuous Testing are heavily used
+Automation testing (like your Selenium learning) becomes very important in Agile, because features need to be tested quickly and repeatedly across many sprints .
+
+Agile vs Waterfall (Quick Comparison)
+         
+         
+      Agile                                                                          Waterfall
+
+Flexible, iterative                                                                Fixed, sequential
+Testing happens throughout                                                         Testing happens at the end
+Changes welcomed anytime                                                           Changes are difficult once started
+Faster feedback and delivery                                                       Feedback only after full completion
+Customer involved continuously                                                     Customer involved mainly at start/end
+
+Simple Example to Understand Agile
+Imagine building a house:
+
+Waterfall: You build the entire house, then show it to the owner. 
+If they don't like the kitchen design, you have to redo a lot of work.
+
+Agile: You build one room first (say, the kitchen), show it to the owner, get feedback, fix anything needed, then move to the next room. 
+Mistakes get caught early, and the owner sees progress constantly.
+
+
+2) Explain about Monitoring Activity :
+
+   In software testing, Monitoring (often called Test Monitoring and Control) is an ongoing activity that runs throughout the entire testing process — from planning until test closure. 
+   It's not a single phase like Test Planning or Test Execution; instead, it happens continuously alongside all other testing activities.
+
+What is Monitoring Activity?
+It is the process of tracking the progress of testing activities, comparing actual progress against the test plan, and taking corrective actions if things go off track.
+Simply put: "Are we testing as planned? If not, what do we need to fix?" 
+
+Purpose of Monitoring Activity
+
+To track whether testing is progressing as per schedule
+To identify risks or issues early, before they become big problems
+To ensure test coverage is adequate
+To measure test execution progress (how many test cases passed/failed/blocked)
+To take corrective actions when deviations are found (e.g., delays, resource shortage, environment issues).
+
+Core Values of Agile (Agile Manifesto)
+Agile is based on 4 key values:
+
+Individuals and interactions over processes and tools
+Working software over comprehensive documentation
+Customer collaboration over contract negotiation
+Responding to change over following a fixed plan
+
+How is Monitoring Done? (Common Methods/Tools)
+
+Test Status Reports – Daily/weekly reports showing test execution status
+Dashboards – Visual tracking (e.g., in Jira, TestRail, Zephyr) showing pass/fail metrics
+Defect Reports – Tracking open, closed, reopened bugs
+Metrics – e.g., Test case execution %, defect density, defect leakage.
+
+
+Where Does This Fit in STLC?
+In the Software Testing Life Cycle (STLC), Test Monitoring and Control isn't a separate one-time phase — it runs parallel to all phases:
+
+
+ Requirement Analysis → Test Planning → Test Case Development → 
+Test Environment Setup → Test Execution → Test Closure
+                    ↑
+        (Monitoring & Control happens throughout all of this)
+
+
+
+Simple Example
+Imagine your test plan says: "Execute 100 test cases in 5 days."
+
+Day 3 (Monitoring): You check status and see only 40 test cases have been executed instead of the expected 60.
+Action (Controlling): You investigate why — maybe the environment was down for a day — and then decide to extend testing hours or bring in an extra tester to catch up.
+
+That combination of checking progress + fixing the gap is exactly what Monitoring Activity means in testing.
+   
+
+
+
+
+
+
+
+
+
