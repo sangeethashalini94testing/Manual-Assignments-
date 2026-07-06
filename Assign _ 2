@@ -1,0 +1,87 @@
+1) What is UAT? Who will do the testing and what is the purpose of testing?
+
+   UAT (User Acceptance Testing) is the final phase of testing done before a software product goes live.
+
+   Who does it: The end users or clients (not developers or testers) — The actual people who will use the software in real life.
+                Sometimes a dedicated UAT team or business representatives do it on behalf of end users.
+
+   Purpose:  To verify that the software meets business requirements and works correctly in real-world scenarios,
+             from the user's point of view — not just that it's technically bug-free.
+   
+
+2) What is the difference between Functional and Non functional testing? 
+
+
+          Functional Testing                                                    Non-Functional Testing
+
+     Tests what the system does                                            Tests how well the system performs
+
+    Based on requirements/specifications                                     Based on quality attributes
+
+    Checks features, business logic                                          Checks performance, usability, security
+
+    Example: Does login work with correct credentials?                       Example: How fast does login happen with 1000  users ? 
+
+    Functional = behavior                                                    Non-functional = quality of behavior.
+
+
+
+3) Load testing will come under functional or non functional testing? And why it is coming under that category?
+
+       Load Testing comes under Non-Functional Testing.
+   
+Why: Load testing doesn't check what the system does (like a feature working correctly) — 
+It checks how the system performs/behaves under a specific expected load (e.g., how the app performs when 500 users log in at the same time). 
+Since it's about performance, speed, and stability rather than functionality/features, 
+it falls under non-functional testing (specifically under Performance Testing).
+
+
+4) What is Exploratory Testing and when we will do this testing?
+
+    Exploratory Testing is a testing approach where the tester simultaneously learns the application, designs tests, and executes them — without following pre-written test cases or scripts.
+    The tester explores the application freely based on their experience and intuition to find defects.
+
+
+   When it's done:
+
+    When documentation/requirements are incomplete or unclear.
+    Early in development, when there isn't time to write formal test cases.
+    Alongside scripted testing, to catch bugs that structured test cases might miss.
+    When testers want to think like a real user and try unexpected paths.
+
+
+5)  What is Black box Testing and how it differs from White box testing?
+
+    Black Box Testing:
+
+    Testing the software without knowing its internal code/structure.
+    The tester only looks at inputs and outputs — like a "black box" where you can't see inside.
+
+    Focus: Functionality, based on requirements
+    Done by: Testers (no programming knowledge needed)
+    Techniques: Equivalence partitioning, boundary value analysis.
+
+    
+    White Box Testing:
+    
+  Testing the software with full knowledge of the internal code/structure.
+  The tester checks the internal logic, code paths, and structures.
+
+  Focus: Internal logic — the techniques you studied recently (Statement, Branch, Path, Condition Coverage)
+  Done by: Developers or testers with coding knowledge
+  Techniques: Code coverage analysis.
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+   
